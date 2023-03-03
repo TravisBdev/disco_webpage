@@ -9,46 +9,50 @@
   </head>
   <body>
     <header class="header">
-      <nav class="navbar">
-        <a href="home.html">Home</a>
-        <a href="about.html">About Your Pet</a>
-        <a href="learn.html">Learn More</a>
-        <a href="other.html">Other Models</a>
+      <img src="/assets/catpaw.jpg" alt="cat paw outline" class="logo" />
+
+      <nav class="nav-list">
+        <a class="list-item" href="home.html">Home</a>
+        <a class="list-item" href="about.html">About Your Pet</a>
+        <a class="list-item" href="learn.html">Learn More</a>
+        <a class="list-item" href="other.html">Other Models</a>
       </nav>
     </header>
 
-    <main class="about-main">
-      <form action="#" method="post">
-        <fieldset>
-          <legend>Your Pet's Name</legend>
+    <div class="about-container">
+      <main class="about-main">
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Your Pet's Name</legend>
 
-          <div class="first-name-container">
-            <label for="first-name">First:</label>
-            <input type="text" name="first" id="first-name" />
-          </div>
+            <div class="first-name-container">
+              <label for="first-name">First:</label>
+              <input type="text" name="first" id="first-name" />
+            </div>
 
-          <div class="last-name-container">
-            <label for="last-name">Last:</label>
-            <input type="text" name="first" id="last-name" />
-          </div>
+            <div class="last-name-container">
+              <label for="last-name">Last:</label>
+              <input type="text" name="first" id="last-name" />
+            </div>
 
-          <div class="is-spoiled-container">
-            <label for="is-spoiled">Are They Spoiled?:</label>
-            <input type="checkbox" name="is-spoiled" id="is-spoiled" />
-          </div>
+            <div class="is-spoiled-container">
+              <label for="is-spoiled">Are They Spoiled?:</label>
+              <input type="checkbox" name="is-spoiled" id="is-spoiled" />
+            </div>
 
-          <div class="how-spoiled-container">
-            <label for="how-spoiled">How Spoiled Are They?:</label>
-            <textarea
-              name="how-spoiled"
-              id="how-spoiled"
-              cols="30"
-              rows="10"
-            ></textarea>
-          </div>
-          <button class="submit-btn">Submit</button>
-        </fieldset>
-      </form>
-    </main>
+            <div class="how-spoiled-container">
+              <label for="how-spoiled">How Spoiled Are They?:</label>
+              <textarea
+                name="how-spoiled"
+                id="how-spoiled"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <button class="submit-btn">Submit</button>
+          </fieldset>
+        </form>
+      </main>
+    </div>
   </body>
 </html>

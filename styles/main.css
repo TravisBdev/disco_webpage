@@ -22,8 +22,8 @@ body {
 }
 
 
-/* Main Grid Layout */
-.page-container {
+/* Page One Grid Layout */
+.home-container {
   display: grid;
   height: 100vh;
   grid-template-columns: 2fr 1fr;
@@ -134,4 +134,16 @@ body {
 
 .card-nums {
   align-self: flex-start;
+}
+
+
+
+
+
+/* Page Two Layout */
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
 }

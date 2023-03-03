@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+:root {
+  --almostWhite: hsl(35, 77%, 62%)
+  --SoftRed: hsl(5, 85%, 63%)
+  --OffWhite: hsl(36, 100%, 99%)
+  --GrayishBlue: hsl(233, 8%, 79%)
+  --DarkGrayishBlue: hsl(236, 13%, 42%)
+  --VeryDarkBlue: hsl(240, 100%, 5%)
+}
+
+/* Main Grid Layout 12 x 12 */
+
+
+body {
+  background-color: var(--almostWhite);
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+

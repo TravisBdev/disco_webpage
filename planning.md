@@ -1,37 +1,29 @@
-Page 1:
-Navigation Bar linking to all 4 pages
-1 header using H1
-3 sections of text with H2 headers
-1 image
+## Layout
 
-Page 2:
-Navigation Bar linking to all 4 pages
-HTML form with a minimum of:
-1 fieldset
-3 inputs
-2 text
-1 checkbox
-1 textarea
-Appropriate labels for the above
-1 button
+The designs were created to the following widths:
 
-Page 3:
-Navigation Bar linking to all 4 pages
-1 header using H1
-1 ordered or unordered list of links to 5 other websites
+- Mobile: 375px
+- Desktop: 1440px
 
-Page 4:
-Navigation Bar linking to all 4 pages
-1 header using H1
-6 images displayed 3 wide and 2 down
-A label for each image
-Clicking on the image opens the source of that image in a new window
+## Colors
 
-Main Pallete
-{
---eggshell: #f4f1deff;
---byzantine-blue: #3454d1ff;
---burnt-sienna: #e07a5fff;
---black: #070707ff;
---cambridge-blue: #81b29aff;
-}
+### Primary
+
+--SoftOrange: hsl(35, 77%, 62%)
+--SoftRed: hsl(5, 85%, 63%)
+
+### Neutral
+
+--OffWhite: hsl(36, 100%, 99%)
+--GrayishBlue: hsl(233, 8%, 79%)
+--DarkGrayishBlue: hsl(236, 13%, 42%)
+--VeryDarkBlue: hsl(240, 100%, 5%)
+
+### Typing
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 700, 800

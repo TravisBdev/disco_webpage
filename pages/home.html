@@ -4,62 +4,96 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/home.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
     <title>Disco Is My Favorite</title>
   </head>
   <body>
-    <header class="header">
-      <img src="/assets/catpaw.jpg" alt="cat paw outline" class="logo" />
-      <nav class="navbar">
-        <a href="home.html">Home</a>
-        <a href="about.html">About Your Pet</a>
-        <a href="learn.html">Learn More</a>
-        <a href="other.html">Other Models</a>
-      </nav>
-    </header>
+    <div class="page-container">
+      <header class="header">
+        <img src="/assets/catpaw.jpg" alt="cat paw outline" class="logo" />
 
-    <main class="home-main">
-      <h1>Disco the Cat</h1>
-      <section class="disco-story">
+        <nav class="nav-list">
+          <a class="list-item" href="home.html">Home</a>
+          <a class="list-item" href="about.html">About Your Pet</a>
+          <a class="list-item" href="learn.html">Learn More</a>
+          <a class="list-item" href="other.html">Other Models</a>
+        </nav>
+      </header>
+
+      <main class="home-main">
+        <img src="/assets/bigcomputercat.png" alt="sketch of a cat" />
+
+        <h1>This is my cat, Disco.</h1>
+
         <img
           id="disco-headshot"
           src="/assets/disco.jpeg"
           alt="picture of Disco the cat"
         />
-        <p class="story-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          quis dolorum hic assumenda debitis provident. Natus ipsam velit iure
-          voluptatibus expedita hic mollitia numquam fugiat magni accusantium,
-          blanditiis doloribus fuga!
-        </p>
-      </section>
+      </main>
 
-      <section class="disco-food">
-        <img
-          id="disco-food-type"
-          src="/assets/catfood.PNG"
-          alt="picture of cat food"
-        />
-        <p class="food-text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
-          perspiciatis quasi mollitia, laudantium saepe, id expedita neque sit,
-          fuga qui necessitatibus omnis velit ipsam ullam numquam unde quisquam
-          quod! Maxime?
-        </p>
-      </section>
+      <aside>
+        <section class="disco-story-one">
+          <p class="story-one-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quis dolorum hic assumenda debitis provident. Natus ipsam velit iure
+            voluptatibus expedita hic mollitia numquam fugiat magni accusantium,
+            blanditiis doloribus fuga!
+          </p>
+        </section>
 
-      <section class="disco-habits">
-        <img
-          id="disco-in-bed"
-          src="/assets/discoinbed.jpeg"
-          alt="cat laying in bed"
-        />
-        <p class="habits-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          eligendi fugiat ab modi eaque nulla eveniet quae, quia totam. Magni
-          natus assumenda sit eos deleniti vero est praesentium harum facere.
-        </p>
+        <section class="cat-story-two">
+          <p class="story-two-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+            perspiciatis quasi mollitia, laudantium saepe, id expedita neque
+            sit, fuga qui necessitatibus omnis velit ipsam ullam numquam unde
+            quisquam quod! Maxime?
+          </p>
+        </section>
+
+        <section class="cat-story-three">
+          <p class="story-three-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            eligendi fugiat ab modi eaque nulla eveniet quae, quia totam. Magni
+            natus assumenda sit eos deleniti vero est praesentium harum facere.
+          </p>
+        </section>
+      </aside>
+
+      <section class="favorite-things">
+        <div class="food-card">
+          <img
+            id="disco-food-type"
+            src="/assets/catfood.PNG"
+            alt="picture of cat food"
+          />
+          <div class="card-nums">01</div>
+          <h4 class="card-header">She Loves Gravy</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="squirrels-card">
+          <img
+            id="disco-in-bed"
+            src="/assets/discoinbed.jpeg"
+            alt="cat laying in bed"
+          />
+          <div class="card-nums">02</div>
+          <h4 class="card-header">And Squirrels</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="food-card">
+          <img
+            id="disco-food-type"
+            src="/assets/catfood.PNG"
+            alt="picture of cat food"
+          />
+          <div class="card-nums">01</div>
+          <h4 class="card-header">She Loves Gravy</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
       </section>
-    </main>
+    </div>
   </body>
 </html>

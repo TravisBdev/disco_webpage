@@ -8,23 +8,130 @@
 }
 
 :root {
-  --almostWhite: hsl(35, 77%, 62%)
-  --SoftRed: hsl(5, 85%, 63%)
-  --OffWhite: hsl(36, 100%, 99%)
-  --GrayishBlue: hsl(233, 8%, 79%)
-  --DarkGrayishBlue: hsl(236, 13%, 42%)
-  --VeryDarkBlue: hsl(240, 100%, 5%)
+  --softOrange: hsl(35, 77%, 62%);
+  --softRed: hsl(5, 85%, 63%);
+  --offWhite: hsl(36, 100%, 99%);
+  --grayishBlue: hsl(233, 8%, 79%);
+  --darkGrayishBlue: hsl(236, 13%, 42%);
+  --lightishGreen: hsl(161,65%,80%);
 }
 
-/* Main Grid Layout 12 x 12 */
-
-
 body {
-  background-color: var(--almostWhite);
+  background-color: var(--offWhite);
+  overflow: hidden;
+}
+
+
+/* Main Grid Layout */
+.page-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-areas:
+      'head head'
+      'main aside'
+      'section section'
+}
+
+/* Header Styles */
+.header {
+  grid-area: head;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem 0 1rem;
 }
 
 .logo {
   width: 100px;
   height: 100px;
+  margin-left: 1rem;
 }
 
+.list-item {
+  margin: 0 1rem 0 0;
+  text-decoration: none;
+  color: var(--darkGrayishBlue);
+}
+
+.list-item:hover {
+  color: var(--softRed);
+}
+
+
+/* Hero Styles */
+.home-main {
+  grid-area: main;
+  text-align: center;
+}
+
+
+.hero-description {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  padding-left: 3rem;
+  justify-content: space-evenly;
+}
+
+#hero-title {
+  color: var(--darkGrayishBlue);
+}
+
+#disco-headshot {
+  height: 15%;
+  width: 15%;
+  margin-right: 6rem;
+  border-radius: 10%;
+  -webkit-box-shadow: -1px 0px 15px 9px hsl(161,65%,80%);
+  -moz-box-shadow: -1px 0px 15px 9px hsl(161,65%,80%);
+  box-shadow: -1px 0px 15px 9px hsl(161,65%,80%);
+}
+
+/* Aside Styles */
+.side-stories {
+  grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+  background-color: var(--lightishGreen);
+  color: var(--darkGrayishBlue);
+}
+
+.divider {
+  border: 1px solid var(--darkGrayishBlue);
+  width: 80%;
+}
+
+/* temp style */
+#disco-food-type,
+#disco-in-bed {
+  height: 200px;
+  width: 200px;
+}
+
+
+
+/* Bottom Styles */
+.favorite-things {
+  grid-area: section;
+  padding: 0 1rem 1rem 1rem;
+  display: flex;
+  justify-content: space-around;
+  color: var(--darkGrayishBlue);
+}
+
+.favorite-things div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-nums {
+  align-self: flex-start;
+}

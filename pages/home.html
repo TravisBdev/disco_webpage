@@ -9,6 +9,7 @@
   </head>
   <body>
     <div class="page-container">
+      <!-- Header and Nav -->
       <header class="header">
         <img src="/assets/catpaw.jpg" alt="cat paw outline" class="logo" />
 
@@ -20,78 +21,84 @@
         </nav>
       </header>
 
+      <!-- Main Hero -->
       <main class="home-main">
-        <img src="/assets/bigcomputercat.png" alt="sketch of a cat" />
-
-        <h1>This is my cat, Disco.</h1>
-
         <img
-          id="disco-headshot"
-          src="/assets/disco.jpeg"
-          alt="picture of Disco the cat"
+          class="hero-img"
+          src="/assets/bigcomputercat.png"
+          alt="sketch of a cat"
         />
+
+        <div class="hero-description">
+          <h1 id="hero-title">
+            This is my cat,<br />
+            Disco.
+          </h1>
+
+          <img
+            id="disco-headshot"
+            src="/assets/disco.jpeg"
+            alt="picture of Disco the cat"
+          />
+        </div>
       </main>
 
-      <aside>
-        <section class="disco-story-one">
+      <!-- Sidebar -->
+      <aside class="side-stories">
+        <h2>Stories</h2>
+        <section class="cat-story-one">
           <p class="story-one-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quis dolorum hic assumenda debitis provident. Natus ipsam velit iure
-            voluptatibus expedita hic mollitia numquam fugiat magni accusantium,
-            blanditiis doloribus fuga!
+            - Disco was origionally a stray found by my best friend. His dog was
+            not cat friendly so I took her home.
           </p>
         </section>
+
+        <div class="divider"></div>
 
         <section class="cat-story-two">
           <p class="story-two-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
-            perspiciatis quasi mollitia, laudantium saepe, id expedita neque
-            sit, fuga qui necessitatibus omnis velit ipsam ullam numquam unde
-            quisquam quod! Maxime?
+            - My Mom calls her "Chunky Monkey" because she is vaguely shaped
+            like a lima bean.
           </p>
         </section>
 
+        <div class="divider"></div>
+
         <section class="cat-story-three">
           <p class="story-three-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            eligendi fugiat ab modi eaque nulla eveniet quae, quia totam. Magni
-            natus assumenda sit eos deleniti vero est praesentium harum facere.
+            - She is currently trying to catch the cursor on my screen as I type
+            this. I love this Chunky Monkey very much.
           </p>
         </section>
       </aside>
 
+      <!-- Bottom Cards -->
       <section class="favorite-things">
         <div class="food-card">
+          <h4 class="card-header">She Loves Fish With Gravy</h4>
           <img
             id="disco-food-type"
-            src="/assets/catfood.PNG"
+            src="/assets/catfoodfish.png"
             alt="picture of cat food"
           />
-          <div class="card-nums">01</div>
-          <h4 class="card-header">She Loves Gravy</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
 
         <div class="squirrels-card">
+          <h4 class="card-header">Watching Birds</h4>
           <img
             id="disco-in-bed"
-            src="/assets/discoinbed.jpeg"
+            src="/assets/catwatchingbird.png"
             alt="cat laying in bed"
           />
-          <div class="card-nums">02</div>
-          <h4 class="card-header">And Squirrels</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
 
         <div class="food-card">
+          <h4 class="card-header">And Sleeping</h4>
           <img
             id="disco-food-type"
-            src="/assets/catfood.PNG"
+            src="/assets/sleepingcat.png"
             alt="picture of cat food"
           />
-          <div class="card-nums">01</div>
-          <h4 class="card-header">She Loves Gravy</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
       </section>
     </div>

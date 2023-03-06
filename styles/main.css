@@ -219,6 +219,9 @@ body {
   height: 150px;
   width: 250px;
   margin: 5px;
+  -webkit-box-shadow: 0px 0px 10px 4px rgba(163,160,163,1);
+  -moz-box-shadow: 0px 0px 10px 4px rgba(163,160,163,1);
+  box-shadow: 0px 0px 10px 4px rgba(163,160,163,1);
 }
 
 .inner-card-wrapper {

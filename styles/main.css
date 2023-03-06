@@ -184,3 +184,53 @@ body {
 #submit-btn {
   background-color: var(--softOrange);
 }
+
+
+/* Page 3 Layout */
+
+.learn-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.link-item {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.link-item a{
+  text-decoration: none;
+}
+
+.cat-pic {
+  width: 200px;
+  height: 100px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.cat-card {
+  border: 1px solid var(--darkGrayishBlue);
+  border-radius: 15px;
+  background-color: var(--grayishBlue);
+  height: 150px;
+  width: 250px;
+  margin: 5px;
+}
+
+.inner-card-wrapper {
+  text-align: center;
+}
+
+.inner-card-wrapper p {
+  text-align: center;
+  color: var(--offWhite);
+}
+
+.inner-card-wrapper p:hover{
+  text-align: center;
+  color: var(--softOrange);
+}
